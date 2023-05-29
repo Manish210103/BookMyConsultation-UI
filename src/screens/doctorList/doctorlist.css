@@ -1,0 +1,73 @@
+.doctor-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+
+  }
+  
+  .speciality-heading {
+    font-size: 18px;
+  }
+  
+  .speciality-select {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-box {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .doctor-name {
+    font-size: 20px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+  }
+  
+  .speciality, .rating {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+    padding: 1px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .book-appointment-button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-details-button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-appointment-button:hover {
+    background-color: darkblue;
+  }
+  
+  .view-details-button:hover {
+    background-color: darkgreen;
+  }
+  

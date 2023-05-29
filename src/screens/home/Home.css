@@ -1,0 +1,38 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .home-container button {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 16px;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+    text-align: center;
+    flex: 0.5;
+    height: 40px;
+  }
+  
+  .home-container button:hover {
+    border-color: rgb(249, 169, 182); 
+  }
+  
+  .home-container button:focus {
+    outline: none;
+  }
+  
+  .doctors {
+    flex: 1;
+  }
+  
+  .appointment {
+    flex: 1;
+  }
+  

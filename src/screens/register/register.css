@@ -1,0 +1,84 @@
+.unique-register-container {
+    max-width: 400px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .unique-input-container {
+    margin-bottom: 20px;
+  }
+  
+  .unique-tab-content {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  
+  .unique-input {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .unique-label {
+    align-self: flex-start;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 3px;
+  }
+  
+  input {
+    width: 300px;
+    font-size: 13px;
+    padding: 3px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    outline: none;
+    display: flex;
+  }
+  
+  .unique-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 1px;
+  }
+  
+  .unique-register-button {
+    width: 150px;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .unique-register-button:hover {
+    background-color: blue;
+  }
+  
+  .unique-floating-error-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 150px;
+    background-color: rgb(85, 84, 84); /* Use rgba() with an alpha value */
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 400px;
+    margin-left: 120px;
+  }
+  
+  .unique-error-message {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  

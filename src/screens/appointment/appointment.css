@@ -1,0 +1,46 @@
+.appointment-container {
+    margin-bottom: 20px;
+  }
+  
+  .appointment-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .appointment-login-message {
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .appointment-item {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .appointment-item h2 {
+    margin-bottom: 2px;
+  }
+  
+  .appointment-item h5 {
+    margin-bottom: 20px;
+  }
+  
+  .appointment-item button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  .appointment-separator {
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  

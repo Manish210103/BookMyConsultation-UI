@@ -80,6 +80,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Architecture Overview
 
-# HOME Page
-![Alt Text](./SS%20BookMyConsultation/home.png)
+Home Page
+![Home Page](./SS BookMyConsultation/home.png)
 

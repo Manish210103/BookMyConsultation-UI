@@ -80,7 +80,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Architecture Overview
 
-Home Page
-![homepage](https://raw.githubusercontent.com/Manish210103/BookMyConsultation-UI/main/SS%20BookMyConsultation/home.jpg)
+The screenshots of the working model can be found in the SS BookMyConsultation folder.
 
 
